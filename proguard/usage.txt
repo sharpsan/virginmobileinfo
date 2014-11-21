@@ -1,0 +1,496 @@
+com.jjoe64.graphview.BarGraphView:
+    39:40:public BarGraphView(android.content.Context,android.util.AttributeSet)
+com.jjoe64.graphview.BuildConfig
+com.jjoe64.graphview.GraphView:
+    365:370:public GraphView(android.content.Context,android.util.AttributeSet)
+    743:743:public boolean isShowLegend()
+    768:775:public void removeAllSeries()
+    782:785:public void removeSeries(com.jjoe64.graphview.GraphViewSeries)
+    792:797:public void removeSeries(int)
+    804:816:public void scrollToEnd()
+    899:902:public void setManualYAxisBounds(double,double)
+    1002:1007:public void setViewPort(double,double)
+    55:55:static synthetic double access$1142(com.jjoe64.graphview.GraphView,double)
+    55:55:static synthetic double access$1102(com.jjoe64.graphview.GraphView,double)
+com.jjoe64.graphview.GraphView$1:
+    933:960:public boolean onScale(com.jjoe64.graphview.compatible.ScaleGestureDetector)
+com.jjoe64.graphview.GraphView$GraphViewConfig
+com.jjoe64.graphview.GraphViewSeries:
+    84:92:public GraphViewSeries(java.lang.String,com.jjoe64.graphview.GraphViewSeries$GraphViewSeriesStyle,com.jjoe64.graphview.GraphViewDataInterface[])
+    111:125:public void appendData(com.jjoe64.graphview.GraphViewDataInterface,boolean)
+    136:164:public void appendData(com.jjoe64.graphview.GraphViewDataInterface,boolean,int)
+    170:170:public com.jjoe64.graphview.GraphViewSeries$GraphViewSeriesStyle getStyle()
+    178:179:public void removeGraphView(com.jjoe64.graphview.GraphView)
+    188:193:public void resetData(com.jjoe64.graphview.GraphViewDataInterface[])
+com.jjoe64.graphview.GraphViewSeries$GraphViewSeriesStyle:
+    42:45:public GraphViewSeries$GraphViewSeriesStyle(int,int)
+    57:58:public void setValueDependentColor(com.jjoe64.graphview.ValueDependentColor)
+com.jjoe64.graphview.GraphViewStyle:
+    52:57:public GraphViewStyle(int,int,int)
+    124:125:public void setGridStyle(com.jjoe64.graphview.GraphViewStyle$GridStyle)
+    128:129:public void setGridColor(int)
+    136:137:public void setLegendBorder(int)
+    140:141:public void setLegendSpacing(int)
+    148:149:public void setLegendMarginBottom(int)
+    155:156:public void setNumHorizontalLabels(int)
+    162:163:public void setNumVerticalLabels(int)
+    166:167:public void setTextSize(float)
+    170:171:public void setVerticalLabelsAlign(android.graphics.Paint$Align)
+    181:182:public void setVerticalLabelsWidth(int)
+com.jjoe64.graphview.LineGraphView
+com.jjoe64.graphview.compatible.RealScaleGestureDetector:
+    29:35:public RealScaleGestureDetector(android.content.Context,com.jjoe64.graphview.compatible.ScaleGestureDetector,com.jjoe64.graphview.compatible.ScaleGestureDetector$SimpleOnScaleGestureListener)
+com.jjoe64.graphview.compatible.RealScaleGestureDetector$1
+com.jjoe64.graphview.compatible.ScaleGestureDetector:
+    65:73:public double getScaleFactor()
+com.jjoe64.graphview.compatible.ScaleGestureDetector$SimpleOnScaleGestureListener:
+    public abstract boolean onScale(com.jjoe64.graphview.compatible.ScaleGestureDetector)
+com.sharpsan.virginmobileinfo.BuildConfig
+com.sharpsan.virginmobileinfo.GraphsActivity:
+    private com.sharpsan.virginmobileinfo.profile.LoginAdapter mLoginAdapter
+    private com.sharpsan.virginmobileinfo.profile.AccountAdapter mAccountAdapter
+    private android.database.Cursor mLoginCursor
+    private android.database.Cursor mAccountCursor
+com.sharpsan.virginmobileinfo.R
+com.sharpsan.virginmobileinfo.R$array
+com.sharpsan.virginmobileinfo.R$attr
+com.sharpsan.virginmobileinfo.R$color
+com.sharpsan.virginmobileinfo.R$dimen
+com.sharpsan.virginmobileinfo.R$drawable
+com.sharpsan.virginmobileinfo.R$id
+com.sharpsan.virginmobileinfo.R$layout
+com.sharpsan.virginmobileinfo.R$menu
+com.sharpsan.virginmobileinfo.R$string
+com.sharpsan.virginmobileinfo.R$style
+com.sharpsan.virginmobileinfo.R$xml
+com.sharpsan.virginmobileinfo.database.Contract
+com.sharpsan.virginmobileinfo.database.Contract$LoginDataEntry
+com.sharpsan.virginmobileinfo.database.Contract$UserDataEntry
+com.sharpsan.virginmobileinfo.database.DbHelper:
+    public static final java.lang.String _ID
+    public static final java.lang.String _NULLABLE
+    public static final java.lang.String TEXT_TYPE
+    public static final java.lang.String COMMA_SEP
+    public static final int DATABASE_USER_DATA_VERSION
+    public static final java.lang.String DATABASE_USER_DATA_NAME
+    public static final java.lang.String SQL_CREATE_TABLE_PROFILE
+    public static final java.lang.String SQL_CREATE_TABLE_EXTRA_DATA
+    public static final java.lang.String SQL_DELETE_TABLE_PROFILE
+    public static final java.lang.String SQL_DELETE_TABLE_EXTRA_DATA
+    public static final java.lang.String SQL_DELETE_SQLITE_SEQUENCE_PROFILE
+    public static final java.lang.String SQL_DELETE_SQLITE_SEQUENCE_EXTRA_DATA
+    public static final int DATABASE_LOGIN_VERSION
+    public static final java.lang.String DATABASE_LOGIN_NAME
+    public static final java.lang.String SQL_CREATE_TABLE_LOGIN
+    public static final java.lang.String SQL_DELETE_TABLE_LOGIN
+    public static final java.lang.String SQL_DELETE_SQLITE_SEQUENCE_LOGIN
+com.sharpsan.virginmobileinfo.profile.LoginAdapter:
+    61:62:public void emptyDatabase()
+com.sharpsan.virginmobileinfo.utils.DateUtils:
+    static final java.lang.String joda_default_date_format
+    static final java.lang.String default_date_format
+    10:10:public DateUtils()
+com.sharpsan.virginmobileinfo.utils.DebugMessage:
+    private static final java.lang.String LOG
+    7:7:public DebugMessage()
+com.sharpsan.virginmobileinfo.utils.Feedback:
+    8:8:public Feedback()
+com.sharpsan.virginmobileinfo.utils.FormatPhoneNumber:
+    3:3:public FormatPhoneNumber()
+com.sharpsan.virginmobileinfo.utils.HtmlUtils:
+    8:8:public HtmlUtils()
+com.sharpsan.virginmobileinfo.utils.IsNetworkAvailable:
+    7:7:public IsNetworkAvailable()
+com.sharpsan.virginmobileinfo.utils.LoginDialog:
+    9:9:public LoginDialog()
+com.sharpsan.virginmobileinfo.utils.ProgressBarColor:
+    android.content.Context context
+    int color
+com.sharpsan.virginmobileinfo.utils.SimplePackageInfo:
+    7:7:public SimplePackageInfo()
+com.sharpsan.virginmobileinfo.utils.Stopwatch:
+    23:24:public void stop()
+    27:29:public void pause()
+    32:34:public void resume()
+    47:51:public long getElapsedTimeSecs()
+    56:60:public long getElapsedTimeMin()
+    65:69:public long getElapsedTimeHour()
+com.sharpsan.virginmobileinfo.utils.StringUtils:
+    3:3:public StringUtils()
+    75:75:public java.lang.String substringBetween(java.lang.String,java.lang.String)
+    143:143:public static boolean isEmpty(java.lang.String)
+com.sharpsan.virginmobileinfo.utils.Themeing
+org.jsoup.Connection:
+    public abstract org.jsoup.Connection url(java.net.URL)
+    public abstract org.jsoup.Connection userAgent(java.lang.String)
+    public abstract org.jsoup.Connection maxBodySize(int)
+    public abstract org.jsoup.Connection referrer(java.lang.String)
+    public abstract org.jsoup.Connection followRedirects(boolean)
+    public abstract org.jsoup.Connection method(org.jsoup.Connection$Method)
+    public abstract org.jsoup.Connection ignoreHttpErrors(boolean)
+    public abstract org.jsoup.Connection ignoreContentType(boolean)
+    public abstract org.jsoup.Connection data(java.util.Collection)
+    public abstract org.jsoup.Connection data(java.util.Map)
+    public varargs abstract org.jsoup.Connection data(java.lang.String[])
+    public abstract org.jsoup.Connection header(java.lang.String,java.lang.String)
+    public abstract org.jsoup.Connection cookie(java.lang.String,java.lang.String)
+    public abstract org.jsoup.Connection cookies(java.util.Map)
+    public abstract org.jsoup.Connection parser(org.jsoup.parser.Parser)
+    public abstract org.jsoup.nodes.Document get()
+    public abstract org.jsoup.Connection$Response execute()
+    public abstract org.jsoup.Connection$Request request()
+    public abstract org.jsoup.Connection request(org.jsoup.Connection$Request)
+    public abstract org.jsoup.Connection$Response response()
+    public abstract org.jsoup.Connection response(org.jsoup.Connection$Response)
+org.jsoup.Connection$Base:
+    public abstract java.lang.String header(java.lang.String)
+    public abstract org.jsoup.Connection$Base header(java.lang.String,java.lang.String)
+    public abstract boolean hasHeader(java.lang.String)
+    public abstract org.jsoup.Connection$Base removeHeader(java.lang.String)
+    public abstract java.lang.String cookie(java.lang.String)
+    public abstract boolean hasCookie(java.lang.String)
+    public abstract org.jsoup.Connection$Base removeCookie(java.lang.String)
+org.jsoup.Connection$KeyVal:
+    public abstract org.jsoup.Connection$KeyVal key(java.lang.String)
+    public abstract org.jsoup.Connection$KeyVal value(java.lang.String)
+org.jsoup.Connection$Request:
+    public abstract org.jsoup.Connection$Request maxBodySize(int)
+    public abstract org.jsoup.Connection$Request followRedirects(boolean)
+    public abstract org.jsoup.Connection$Request ignoreHttpErrors(boolean)
+    public abstract org.jsoup.Connection$Request ignoreContentType(boolean)
+    public abstract org.jsoup.Connection$Request parser(org.jsoup.parser.Parser)
+org.jsoup.Connection$Response:
+    public abstract int statusCode()
+    public abstract java.lang.String statusMessage()
+    public abstract java.lang.String charset()
+    public abstract java.lang.String contentType()
+    public abstract java.lang.String body()
+    public abstract byte[] bodyAsBytes()
+org.jsoup.HttpStatusException:
+    19:19:public int getStatusCode()
+    23:23:public java.lang.String getUrl()
+org.jsoup.Jsoup:
+    20:20:private Jsoup()
+    31:31:public static org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+    45:45:public static org.jsoup.nodes.Document parse(java.lang.String,java.lang.String,org.jsoup.parser.Parser)
+    58:58:public static org.jsoup.nodes.Document parse(java.lang.String)
+    88:88:public static org.jsoup.nodes.Document parse(java.io.File,java.lang.String,java.lang.String)
+    103:103:public static org.jsoup.nodes.Document parse(java.io.File,java.lang.String)
+    118:118:public static org.jsoup.nodes.Document parse(java.io.InputStream,java.lang.String,java.lang.String)
+    135:135:public static org.jsoup.nodes.Document parse(java.io.InputStream,java.lang.String,java.lang.String,org.jsoup.parser.Parser)
+    148:148:public static org.jsoup.nodes.Document parseBodyFragment(java.lang.String,java.lang.String)
+    160:160:public static org.jsoup.nodes.Document parseBodyFragment(java.lang.String)
+    181:183:public static org.jsoup.nodes.Document parse(java.net.URL,int)
+    198:201:public static java.lang.String clean(java.lang.String,java.lang.String,org.jsoup.safety.Whitelist)
+    215:215:public static java.lang.String clean(java.lang.String,org.jsoup.safety.Whitelist)
+    231:235:public static java.lang.String clean(java.lang.String,java.lang.String,org.jsoup.safety.Whitelist,org.jsoup.nodes.Document$OutputSettings)
+    247:249:public static boolean isValid(java.lang.String,org.jsoup.safety.Whitelist)
+org.jsoup.UnsupportedMimeTypeException:
+    19:19:public java.lang.String getMimeType()
+    23:23:public java.lang.String getUrl()
+org.jsoup.examples.HtmlToPlainText
+org.jsoup.examples.HtmlToPlainText$1
+org.jsoup.examples.HtmlToPlainText$FormattingVisitor
+org.jsoup.examples.ListLinks
+org.jsoup.helper.DataUtil:
+    static final java.lang.String defaultCharset
+    private static final int bufferSize
+    24:24:private DataUtil()
+    35:42:public static org.jsoup.nodes.Document load(java.io.File,java.lang.String,java.lang.String)
+    55:56:public static org.jsoup.nodes.Document load(java.io.InputStream,java.lang.String,java.lang.String)
+    69:70:public static org.jsoup.nodes.Document load(java.io.InputStream,java.lang.String,java.lang.String,org.jsoup.parser.Parser)
+    158:158:static java.nio.ByteBuffer readToByteBuffer(java.io.InputStream)
+org.jsoup.helper.HttpConnection:
+    32:34:public static org.jsoup.Connection connect(java.net.URL)
+    52:53:public org.jsoup.Connection url(java.net.URL)
+    67:69:public org.jsoup.Connection userAgent(java.lang.String)
+    78:79:public org.jsoup.Connection maxBodySize(int)
+    83:84:public org.jsoup.Connection followRedirects(boolean)
+    88:90:public org.jsoup.Connection referrer(java.lang.String)
+    94:95:public org.jsoup.Connection method(org.jsoup.Connection$Method)
+    99:100:public org.jsoup.Connection ignoreHttpErrors(boolean)
+    104:105:public org.jsoup.Connection ignoreContentType(boolean)
+    114:118:public org.jsoup.Connection data(java.util.Map)
+    122:131:public varargs org.jsoup.Connection data(java.lang.String[])
+    135:139:public org.jsoup.Connection data(java.util.Collection)
+    143:144:public org.jsoup.Connection header(java.lang.String,java.lang.String)
+    148:149:public org.jsoup.Connection cookie(java.lang.String,java.lang.String)
+    153:157:public org.jsoup.Connection cookies(java.util.Map)
+    161:162:public org.jsoup.Connection parser(org.jsoup.parser.Parser)
+    166:168:public org.jsoup.nodes.Document get()
+    183:183:public org.jsoup.Connection$Request request()
+    187:188:public org.jsoup.Connection request(org.jsoup.Connection$Request)
+    192:192:public org.jsoup.Connection$Response response()
+    196:197:public org.jsoup.Connection response(org.jsoup.Connection$Response)
+org.jsoup.helper.HttpConnection$Base:
+    286:287:public java.lang.String cookie(java.lang.String)
+    303:305:public org.jsoup.Connection$Base removeCookie(java.lang.String)
+org.jsoup.helper.HttpConnection$KeyVal:
+    682:684:public org.jsoup.helper.HttpConnection$KeyVal key(java.lang.String)
+    692:694:public org.jsoup.helper.HttpConnection$KeyVal value(java.lang.String)
+    666:666:public bridge synthetic org.jsoup.Connection$KeyVal value(java.lang.String)
+    666:666:public bridge synthetic org.jsoup.Connection$KeyVal key(java.lang.String)
+org.jsoup.helper.HttpConnection$Request:
+    347:349:public org.jsoup.Connection$Request maxBodySize(int)
+    357:358:public org.jsoup.Connection$Request followRedirects(boolean)
+    366:367:public org.jsoup.Connection$Request ignoreHttpErrors(boolean)
+    375:376:public org.jsoup.Connection$Request ignoreContentType(boolean)
+    390:391:public org.jsoup.helper.HttpConnection$Request parser(org.jsoup.parser.Parser)
+    313:313:public bridge synthetic java.lang.String cookie(java.lang.String)
+    313:313:public bridge synthetic org.jsoup.Connection$Request parser(org.jsoup.parser.Parser)
+org.jsoup.helper.HttpConnection$Response:
+    private static final int MAX_REDIRECTS
+    500:500:public int statusCode()
+    504:504:public java.lang.String statusMessage()
+    508:508:public java.lang.String charset()
+    524:532:public java.lang.String body()
+    536:537:public byte[] bodyAsBytes()
+    399:399:public bridge synthetic java.lang.String cookie(java.lang.String)
+org.jsoup.helper.StringUtil:
+    9:9:public StringUtil()
+org.jsoup.helper.Validate:
+    8:8:private Validate()
+org.jsoup.nodes.Attribute:
+    41:43:public void setKey(java.lang.String)
+    95:96:public static org.jsoup.nodes.Attribute createFromEncoded(java.lang.String,java.lang.String)
+    100:100:protected boolean isDataAttribute()
+org.jsoup.nodes.Attributes:
+    protected static final java.lang.String dataPrefix
+    66:70:public void remove(java.lang.String)
+    129:129:public java.util.Map dataset()
+    247:247:private static java.lang.String dataKey(java.lang.String)
+    17:17:static synthetic java.util.LinkedHashMap access$100(org.jsoup.nodes.Attributes)
+    17:17:static synthetic java.util.LinkedHashMap access$102(org.jsoup.nodes.Attributes,java.util.LinkedHashMap)
+    17:17:static synthetic java.lang.String access$300(java.lang.String)
+org.jsoup.nodes.Attributes$1
+org.jsoup.nodes.Attributes$Dataset
+org.jsoup.nodes.Attributes$Dataset$DatasetIterator
+org.jsoup.nodes.Attributes$Dataset$EntrySet
+org.jsoup.nodes.Comment:
+    private static final java.lang.String COMMENT_KEY
+org.jsoup.nodes.DataNode:
+    private static final java.lang.String DATA_KEY
+    38:39:public org.jsoup.nodes.DataNode setWholeData(java.lang.String)
+    59:60:public static org.jsoup.nodes.DataNode createFromEncoded(java.lang.String,java.lang.String)
+org.jsoup.nodes.Document:
+    39:46:public static org.jsoup.nodes.Document createShell(java.lang.String)
+    55:55:public java.lang.String location()
+    63:63:public org.jsoup.nodes.Element head()
+    71:71:public org.jsoup.nodes.Element body()
+    80:81:public java.lang.String title()
+    90:97:public void title(java.lang.String)
+    105:105:public org.jsoup.nodes.Element createElement(java.lang.String)
+    114:131:public org.jsoup.nodes.Document normalise()
+    136:151:private void normaliseTextNodes(org.jsoup.nodes.Element)
+    155:173:private void normaliseStructure(java.lang.String,org.jsoup.nodes.Element)
+    177:186:private org.jsoup.nodes.Element findFirstElementByTagName(java.lang.String,org.jsoup.nodes.Node)
+    201:202:public org.jsoup.nodes.Element text(java.lang.String)
+    376:378:public org.jsoup.nodes.Document outputSettings(org.jsoup.nodes.Document$OutputSettings)
+org.jsoup.nodes.Document$OutputSettings:
+    248:249:public org.jsoup.nodes.Document$OutputSettings escapeMode(org.jsoup.nodes.Entities$EscapeMode)
+    305:306:public org.jsoup.nodes.Document$OutputSettings prettyPrint(boolean)
+    324:325:public org.jsoup.nodes.Document$OutputSettings outline(boolean)
+    342:344:public org.jsoup.nodes.Document$OutputSettings indentAmount(int)
+org.jsoup.nodes.Element:
+    75:77:public org.jsoup.nodes.Element tagName(java.lang.String)
+    134:134:public java.util.Map dataset()
+    147:149:public org.jsoup.select.Elements parents()
+    153:158:private static void accumulateParents(org.jsoup.nodes.Element,org.jsoup.select.Elements)
+    209:214:public java.util.List textNodes()
+    226:231:public java.util.List dataNodes()
+    275:278:public org.jsoup.nodes.Element prependChild(org.jsoup.nodes.Node)
+    292:300:public org.jsoup.nodes.Element insertChildren(int,java.util.Collection)
+    311:313:public org.jsoup.nodes.Element appendElement(java.lang.String)
+    324:326:public org.jsoup.nodes.Element prependElement(java.lang.String)
+    336:338:public org.jsoup.nodes.Element appendText(java.lang.String)
+    348:350:public org.jsoup.nodes.Element prependText(java.lang.String)
+    360:364:public org.jsoup.nodes.Element append(java.lang.String)
+    374:378:public org.jsoup.nodes.Element prepend(java.lang.String)
+    390:390:public org.jsoup.nodes.Element before(java.lang.String)
+    413:413:public org.jsoup.nodes.Element after(java.lang.String)
+    424:424:public org.jsoup.nodes.Element after(org.jsoup.nodes.Node)
+    432:433:public org.jsoup.nodes.Element empty()
+    444:444:public org.jsoup.nodes.Element wrap(java.lang.String)
+    473:480:public org.jsoup.nodes.Element nextElementSibling()
+    505:506:public org.jsoup.nodes.Element firstElementSibling()
+    524:525:public org.jsoup.nodes.Element lastElementSibling()
+    548:551:public org.jsoup.select.Elements getElementsByTag(java.lang.String)
+    564:570:public org.jsoup.nodes.Element getElementById(java.lang.String)
+    585:587:public org.jsoup.select.Elements getElementsByClass(java.lang.String)
+    597:600:public org.jsoup.select.Elements getElementsByAttribute(java.lang.String)
+    610:613:public org.jsoup.select.Elements getElementsByAttributeStarting(java.lang.String)
+    624:624:public org.jsoup.select.Elements getElementsByAttributeValue(java.lang.String,java.lang.String)
+    635:635:public org.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String,java.lang.String)
+    646:646:public org.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String,java.lang.String)
+    657:657:public org.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String,java.lang.String)
+    668:668:public org.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String,java.lang.String)
+    678:678:public org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String,java.util.regex.Pattern)
+    691:695:public org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String,java.lang.String)
+    704:704:public org.jsoup.select.Elements getElementsByIndexLessThan(int)
+    713:713:public org.jsoup.select.Elements getElementsByIndexGreaterThan(int)
+    722:722:public org.jsoup.select.Elements getElementsByIndexEquals(int)
+    733:733:public org.jsoup.select.Elements getElementsContainingText(java.lang.String)
+    744:744:public org.jsoup.select.Elements getElementsContainingOwnText(java.lang.String)
+    754:754:public org.jsoup.select.Elements getElementsMatchingText(java.util.regex.Pattern)
+    766:770:public org.jsoup.select.Elements getElementsMatchingText(java.lang.String)
+    780:780:public org.jsoup.select.Elements getElementsMatchingOwnText(java.util.regex.Pattern)
+    792:796:public org.jsoup.select.Elements getElementsMatchingOwnText(java.lang.String)
+    899:905:public org.jsoup.nodes.Element text(java.lang.String)
+    913:924:public boolean hasText()
+    934:946:public java.lang.String data()
+    978:980:public org.jsoup.nodes.Element classNames(java.util.Set)
+    1003:1009:public org.jsoup.nodes.Element addClass(java.lang.String)
+    1018:1024:public org.jsoup.nodes.Element removeClass(java.lang.String)
+    1033:1042:public org.jsoup.nodes.Element toggleClass(java.lang.String)
+    1050:1053:public java.lang.String val()
+    1062:1066:public org.jsoup.nodes.Element val(java.lang.String)
+    1118:1120:public org.jsoup.nodes.Element html(java.lang.String)
+    21:21:public bridge synthetic org.jsoup.nodes.Node wrap(java.lang.String)
+    21:21:public bridge synthetic org.jsoup.nodes.Node after(org.jsoup.nodes.Node)
+    21:21:public bridge synthetic org.jsoup.nodes.Node after(java.lang.String)
+    21:21:public bridge synthetic org.jsoup.nodes.Node before(java.lang.String)
+org.jsoup.nodes.Entities:
+    111:111:static java.lang.String unescape(java.lang.String)
+    121:121:static java.lang.String unescape(java.lang.String,boolean)
+org.jsoup.nodes.FormElement:
+    36:36:public org.jsoup.select.Elements elements()
+    57:66:public org.jsoup.Connection submit()
+    75:92:public java.util.List formData()
+org.jsoup.nodes.Node:
+    122:124:public org.jsoup.nodes.Node removeAttr(java.lang.String)
+    132:132:public java.lang.String baseUri()
+    223:227:public java.util.List childNodesCopy()
+    239:239:protected org.jsoup.nodes.Node[] childNodesAsArray()
+    286:287:public org.jsoup.nodes.Node before(java.lang.String)
+    311:312:public org.jsoup.nodes.Node after(java.lang.String)
+    322:326:public org.jsoup.nodes.Node after(org.jsoup.nodes.Node)
+    330:336:private void addSiblingHtml(int,java.lang.String)
+    344:365:public org.jsoup.nodes.Node wrap(java.lang.String)
+    382:389:public org.jsoup.nodes.Node unwrap()
+    393:397:private org.jsoup.nodes.Element getDeepChild(org.jsoup.nodes.Element)
+    405:408:public void replaceWith(org.jsoup.nodes.Node)
+    417:427:protected void replaceChild(org.jsoup.nodes.Node,org.jsoup.nodes.Node)
+    507:516:public org.jsoup.nodes.Node previousSibling()
+org.jsoup.nodes.TextNode:
+    private static final java.lang.String TEXT_KEY
+    41:41:public java.lang.String text()
+    50:53:public org.jsoup.nodes.TextNode text(java.lang.String)
+    79:89:public org.jsoup.nodes.TextNode splitText(int)
+    115:116:public static org.jsoup.nodes.TextNode createFromEncoded(java.lang.String,java.lang.String)
+    166:167:public org.jsoup.nodes.Node removeAttr(java.lang.String)
+org.jsoup.nodes.XmlDeclaration:
+    private static final java.lang.String DECL_KEY
+    18:21:public XmlDeclaration(java.lang.String,java.lang.String,boolean)
+org.jsoup.parser.CharacterReader:
+    static final char EOF
+    59:59:java.lang.String consumeAsString()
+org.jsoup.parser.HtmlTreeBuilder:
+    59:105:java.util.List parseFragment(java.lang.String,org.jsoup.nodes.Element,java.lang.String,org.jsoup.parser.ParseErrorList)
+    545:546:void setPendingTableCharacters(java.util.List)
+org.jsoup.parser.HtmlTreeBuilderState$Constants:
+    1480:1480:private HtmlTreeBuilderState$Constants()
+org.jsoup.parser.ParseError:
+    25:25:public java.lang.String getErrorMessage()
+    33:33:public int getPosition()
+org.jsoup.parser.ParseErrorList:
+    private static final int INITIAL_CAPACITY
+    24:24:int getMaxSize()
+org.jsoup.parser.Parser:
+    private static final int DEFAULT_MAX_ERRORS
+    40:40:public org.jsoup.parser.TreeBuilder getTreeBuilder()
+    49:50:public org.jsoup.parser.Parser setTreeBuilder(org.jsoup.parser.TreeBuilder)
+    67:68:public org.jsoup.parser.Parser setTrackErrors(int)
+    76:76:public java.util.List getErrors()
+    89:90:public static org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+    104:105:public static java.util.List parseFragment(java.lang.String,org.jsoup.nodes.Element,java.lang.String)
+    116:117:public static java.util.List parseXmlFragment(java.lang.String,java.lang.String)
+    129:136:public static org.jsoup.nodes.Document parseBodyFragment(java.lang.String,java.lang.String)
+    146:147:public static java.lang.String unescapeEntities(java.lang.String,boolean)
+    158:158:public static org.jsoup.nodes.Document parseBodyFragmentRelaxed(java.lang.String,java.lang.String)
+    178:178:public static org.jsoup.parser.Parser xmlParser()
+org.jsoup.parser.Tag:
+    91:91:public boolean canContainBlock()
+    100:100:public boolean isInline()
+    109:109:public boolean isData()
+    118:118:public boolean isEmpty()
+    146:146:public static boolean isKnownTag(java.lang.String)
+    171:171:public boolean isFormSubmittable()
+org.jsoup.parser.TokenQueue:
+    private static final char ESC
+    43:43:public char peek()
+    51:52:public void addFirst(java.lang.Character)
+    60:62:public void addFirst(java.lang.String)
+    79:79:public boolean matchesCS(java.lang.String)
+    109:109:public boolean matchesStartTag()
+    147:148:public void advance()
+    192:213:public java.lang.String consumeToIgnoreCase(java.lang.String)
+    248:250:public java.lang.String chompToIgnoreCase(java.lang.String)
+    325:328:public java.lang.String consumeWord()
+    337:341:public java.lang.String consumeTagName()
+    375:379:public java.lang.String consumeAttributeKey()
+org.jsoup.parser.Tokeniser:
+    static final char replacementChar
+    88:88:org.jsoup.parser.TokeniserState getState()
+    223:223:boolean currentNodeInHtmlNS()
+    234:246:java.lang.String unescapeEntities(boolean)
+org.jsoup.parser.TokeniserState:
+    private static final char nullChar
+    private static final char replacementChar
+    private static final char eof
+org.jsoup.parser.TreeBuilder:
+    36:36:org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)
+org.jsoup.parser.XmlTreeBuilder
+org.jsoup.parser.XmlTreeBuilder$1
+org.jsoup.safety.Cleaner
+org.jsoup.safety.Cleaner$1
+org.jsoup.safety.Cleaner$CleaningVisitor
+org.jsoup.safety.Cleaner$ElementMeta
+org.jsoup.safety.Whitelist
+org.jsoup.safety.Whitelist$AttributeKey
+org.jsoup.safety.Whitelist$AttributeValue
+org.jsoup.safety.Whitelist$Protocol
+org.jsoup.safety.Whitelist$TagName
+org.jsoup.safety.Whitelist$TypedValue
+org.jsoup.select.Collector:
+    13:14:private Collector()
+org.jsoup.select.CombiningEvaluator$Or:
+    73:79:CombiningEvaluator$Or(java.util.Collection)
+org.jsoup.select.Elements:
+    27:29:public Elements(java.util.Collection)
+    36:37:public varargs Elements(org.jsoup.nodes.Element[])
+    70:74:public java.lang.String attr(java.lang.String)
+    83:87:public boolean hasAttr(java.lang.String)
+    97:100:public org.jsoup.select.Elements attr(java.lang.String,java.lang.String)
+    109:112:public org.jsoup.select.Elements removeAttr(java.lang.String)
+    121:124:public org.jsoup.select.Elements addClass(java.lang.String)
+    133:136:public org.jsoup.select.Elements removeClass(java.lang.String)
+    145:148:public org.jsoup.select.Elements toggleClass(java.lang.String)
+    157:161:public boolean hasClass(java.lang.String)
+    170:173:public java.lang.String val()
+    182:184:public org.jsoup.select.Elements val(java.lang.String)
+    196:202:public java.lang.String text()
+    206:210:public boolean hasText()
+    220:226:public java.lang.String html()
+    263:266:public org.jsoup.select.Elements tagName(java.lang.String)
+    276:279:public org.jsoup.select.Elements html(java.lang.String)
+    289:292:public org.jsoup.select.Elements prepend(java.lang.String)
+    302:305:public org.jsoup.select.Elements append(java.lang.String)
+    315:318:public org.jsoup.select.Elements before(java.lang.String)
+    328:331:public org.jsoup.select.Elements after(java.lang.String)
+    344:348:public org.jsoup.select.Elements wrap(java.lang.String)
+    365:368:public org.jsoup.select.Elements unwrap()
+    383:386:public org.jsoup.select.Elements empty()
+    402:405:public org.jsoup.select.Elements remove()
+    416:416:public org.jsoup.select.Elements select(java.lang.String)
+    430:431:public org.jsoup.select.Elements not(java.lang.String)
+    442:442:public org.jsoup.select.Elements eq(int)
+    451:452:public boolean is(java.lang.String)
+    460:464:public org.jsoup.select.Elements parents()
+    481:481:public org.jsoup.nodes.Element last()
+    490:495:public org.jsoup.select.Elements traverse(org.jsoup.select.NodeVisitor)
+    504:508:public java.util.List forms()
+org.jsoup.select.Evaluator$CssNthEvaluator:
+    406:407:public Evaluator$CssNthEvaluator(int)
+org.jsoup.select.Selector:
+    104:111:public static org.jsoup.select.Elements select(java.lang.String,java.lang.Iterable)
+    120:132:static org.jsoup.select.Elements filterOut(java.util.Collection,java.util.Collection)

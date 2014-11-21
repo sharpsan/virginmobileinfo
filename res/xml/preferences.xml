@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Account" >
+        <Preference
+            android:key="pref_account_key"
+            android:summary="@string/pref_account_summary"
+            android:title="@string/pref_account_title" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="General" >
+        <PreferenceScreen android:title="@string/pref_notification_settings_header" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="pref_toast_incoming_call"
+                android:summary="@string/pref_incoming_call_summary"
+                android:title="@string/pref_incoming_call_title" />
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="pref_toast_outgoing_call"
+                android:summary="@string/pref_outgoing_call_summary"
+                android:title="@string/pref_outgoing_call_title" />
+        </PreferenceScreen>
+
+        <ListPreference
+            android:defaultValue="mins-left"
+            android:entries="@array/pref_mins_display_type_entries"
+            android:entryValues="@array/pref_mins_display_type_values"
+            android:key="@string/pref_mins_display_type"
+            android:title="@string/pref_mins_display_type_title" />
+        
+        <!-- <ListPreference
+            android:defaultValue="light-theme"
+            android:entries="@array/pref_themes_entries"
+            android:entryValues="@array/pref_themes_values"
+            android:key="@string/pref_themes"
+            android:title="@string/pref_themes_title" />  -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

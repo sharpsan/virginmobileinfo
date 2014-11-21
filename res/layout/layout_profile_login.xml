@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/preferences" >
+
+    <TextView
+        android:id="@+id/pref_txt_phone_number"
+        style="@style/pref_label"
+        android:paddingTop="5dp"
+        android:text="@string/pref_label_phone_number" />
+
+    <EditText
+        android:id="@+id/pref_edittxt_phone_number"
+        style="@style/pref_save_edittxt"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/pref_label_txt_password"
+        style="@style/pref_label"
+        android:text="@string/pref_label_password" />
+
+    <EditText
+        android:id="@+id/pref_edittxt_password"
+        style="@style/pref_save_edittxt"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword|number" />
+
+</LinearLayout>

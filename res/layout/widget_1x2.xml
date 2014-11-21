@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/widget_header"
+        style="@style/widget_header"
+        android:text="@string/widget_header_title" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/widget_container"
+        style="@style/widget_data_container"
+        android:layout_below="@id/widget_header" >
+
+        <TextView
+            android:id="@+id/widget_symbol"
+            style="@style/widget_symbol"
+            android:text="@string/widget_symbol_plus" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/widget_mins_left"
+            style="@style/widget_mins"
+            android:text="@string/widget_mins_starting_value" >
+        </TextView>
+        
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/widget_mins_total"
+            style="@style/widget_mins"
+            android:text="@string/widget_mins_starting_value" >
+        </TextView>
+    </LinearLayout>
+    
+
+    <ProgressBar
+        android:id="@+id/widget_mins_progress"
+        style="@style/chart"
+        android:layout_below="@id/widget_container" />
+
+</RelativeLayout>

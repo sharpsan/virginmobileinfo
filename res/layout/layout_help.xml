@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+          <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be sure to style me.  Also, include: bug report button, developer contact information/mailto:?, FAQs, app purpose.  And don&apos;t forget icons and visual appeal!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    -->
+
+    <TextView
+        android:id="@+id/help_button_faqs"
+        style="@style/help_button_item"
+        android:onClick="showFaqs"
+        android:text="@string/help_button_faqs" />
+
+    <TextView style="@style/help_hr" />
+
+    <TextView
+        android:id="@+id/help_button_contact"
+        style="@style/help_button_item"
+        android:onClick="contactDev"
+        android:text="@string/help_button_contact" />
+
+    <TextView style="@style/help_hr" />
+
+    <TextView
+        android:id="@+id/help_button_bug_report"
+        style="@style/help_button_item"
+        android:onClick="submitBug"
+        android:text="@string/help_button_bug_report" />
+
+</LinearLayout>

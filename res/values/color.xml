@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="vm_red">#ED1C24</color>
+ <!-- Same color as VM logo -->
+    <color name="compliment_color_med">#F1791C</color>
+    <color name="compliment_color_high">#12948B</color>
+    <color name="compliment_color_low">#ED1C26</color>
+    <color name="color_high_widget">#28C617</color>
+    <color name="light_grey">#EAEAEA</color>
+    <color name="med_grey">#484848</color>
+    <color name="dark_grey">#1B1B1B</color>
+    <color name="link_color">#05c5cf</color>
+
+</resources>

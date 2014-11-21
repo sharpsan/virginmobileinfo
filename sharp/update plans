@@ -1,0 +1,36 @@
+in version 1 updates:
+- dark theme option
+- more widgets: lockscreen, med, and of course small
+- download progress based on guesstimation in extra_table
+- "last refreshed" expressed in hours/minutes/seconds since, as opposed to date/time displayed
+- "supported" version, with a few extra, non-essential features
+
+version 2 ideas:
+- faster updates (cookies to maintain login?)
+	- show data usage!
+- design-oriented display; prettier
+
+
+0.2 release TODOs:
+- implement dark/light skin, and add to options (NEXT UPDATE)
+- bug: fix back button so that it closes app (DONE)
+- add widget preview image (DONE)
+- add updated x hours/minutes/days ago (tentative, depends on ease)
+- abandon complicated/hard-to-change hardcoded design of popup dialogs, faqs, etc for HTML parsing (research) (DONE)
+- "Next payment in x days on date" -consider (FUTURE UPDATE)
+- BUG: application DNR's when database is trying to close an already-closed db.  Occurs normally when update is happening, app is closed, service is still happening in the background, or when app is refreshed, app is closed and reopened, then refresh is clicked again. (FUTURE UPDATE)
+- BUG: *fixed* show correct color indicator in widget (DONE)
+- make refresh, overflow action button images bigger, increase app icon size (DONE)
+
+0.3 release:
+- now shows progress bar colors reflective of data in MainActivity
+- added support for unlimited minutes to progress bars and widget
+- fixed font bug
+
+
+UPDATE FORMAT: {major version}.{increment every update}.{number of changes in update} e.g. 0.2.9
+
+UPDATE STEPS:
+--------------
+AndroidManifest.xml: increment versionCode by 1, update versionName to reflect update version
+about.html: update version here, too

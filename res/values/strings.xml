@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Virgin Mobile Info</string>
+    <string name="developer_email">gsharp.impact@gmail.com</string>
+    <string name="developer_name">Garrett S. Sangalli</string>
+
+    <!-- NAVIGATION MENU -->
+    <string name="action_help">Help</string>
+    <string name="action_graphs">Graphs</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="label_refresh">refresh profile</string>
+    <string name="label_overflow">show more</string>
+
+    <!-- PROFILE -->
+    <!-- Labels -->
+    <string name="label_first_name">User</string>
+    <string name="label_phone_number">Phone:</string>
+    <string name="label_account_status">Status</string>
+    <string name="label_balance">Balance</string>
+    <string name="label_total">Monthly payment</string>
+    <string name="label_start_date">Next payment</string>
+    <string name="label_mins_used">Mins used</string>
+    <string name="label_mins_left">Mins left</string>
+    <string name="label_mins_usedleft">null</string>
+    <string name="label_of">of</string>
+    <string name="label_last_updated">As of</string>
+    <!-- Save initial values -->
+    <string name="first_name">null</string>
+    <string name="phone_number">null</string>
+    <string name="balance">null</string>
+    <string name="total">null</string>
+    <string name="start_date">null</string>
+    <string name="mins_usedleft">null</string>
+    <string name="mins_total">null</string>
+    <string name="account_status">null</string>
+
+    <!-- SETTINGS -->
+    <string name="pref_save">Save</string>
+    <string name="pref_cancel">Cancel</string>
+    <string name="pref_label_phone_number">Phone Number</string>
+    <string name="pref_label_password">Password</string>
+    <string name="pref_account_title">Account login</string>
+    <string name="pref_account_summary">Login to your Virgin Mobile account.</string>
+    <string name="pref_mins_display_type_title">Minutes display type</string>
+    <string name="pref_mins_display_type_summary">Choose how to display minutes.</string>
+    <string name="pref_incoming_call_title">Incoming call</string>
+    <string name="pref_incoming_call_summary">Toast notification when a call is received.</string>
+    <string name="pref_outgoing_call_title">Outgoing call</string>
+    <string name="pref_outgoing_call_summary">Toast notification when a call is made.</string>
+    <string name="pref_notification_settings_header">Notification settings</string>
+    <string name="pref_mins_display_type">pref_mins_display_type</string>
+    <string name="pref_toast_incoming_call">pref_toast_incoming_call</string>
+    <string name="pref_toast_outgoing_call">pref_toast_outgoing_call</string>
+    <string name="pref_themes">pref_themes</string>
+    <string name="pref_themes_title">Theme</string>
+
+    <!-- FEEDBACK MESSAGES -->
+    <string name="error_message_download">Connection failed</string>
+    <string name="error_message_filter">Virgin Mobile website is most likely down for repairs</string>
+    <string name="success_message_download">Profile downloaded</string>
+    <string name="undefined_message_download">Undefined action.</string>
+
+    <!-- WIDGET -->
+    <string name="widget_header_title">Minutes</string>
+    <string name="widget_symbol_plus"></string>
+    <string name="widget_mins_starting_value">Unloaded&#8230;</string>
+
+    <!-- FIRST RUN -->
+    <string name="dialog_first_run_next_button">Next</string>
+
+    <!-- ABOUT -->
+    <string name="dialog_about_okay_button">Close</string>
+
+    <!-- HELP -->
+    <string name="help_button_bug_report">Submit bug</string>
+    <string name="help_button_contact">Contact developer</string>
+    <string name="help_button_faqs">FAQs</string>
+
+    <!-- FAQs -->
+
+</resources>

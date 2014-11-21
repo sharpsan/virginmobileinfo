@@ -1,0 +1,10 @@
+FAQs
+
+How does fetching work?
+In a background service you are logged in to your Virgin Mobile account.  Afterward, your entire profile page is cached, source code filtered for pertinent data, and all useful information is saved for the app to display in a formatted manner.
+
+Why does refreshing take so long?
+Due to the nature of how we are fetching your account data (see: How does fetching work?), the time to refresh depends on connection speed, as well as Virgin Mobile webservers.  Refreshing takes 5 seconds on average.
+
+Do I need to manually refresh?
+You can, but this isn't necessary.  Your data is automatically refreshed after each call is ended to ensure up-to-date data being displayed at a later time.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_mins_display_type_entries">
+        <item>Show minutes used</item>
+        <item>Show mintes left</item>
+    </string-array>
+    <string-array name="pref_mins_display_type_values">
+        <item>mins-used</item>
+        <item>mins-left</item>
+    </string-array>
+    <string-array name="pref_themes_entries">
+        <item>Light (default)</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="pref_themes_values">
+        <item>light-theme</item>
+        <item>dark-theme</item>
+    </string-array>
+
+</resources>

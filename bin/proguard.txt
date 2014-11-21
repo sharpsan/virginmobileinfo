@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:64
+-keep class com.sharpsan.virginmobileinfo.BaseProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.sharpsan.virginmobileinfo.CallReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.sharpsan.virginmobileinfo.FaqsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.sharpsan.virginmobileinfo.GraphsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.sharpsan.virginmobileinfo.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.sharpsan.virginmobileinfo.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.sharpsan.virginmobileinfo.NetworkChangedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.sharpsan.virginmobileinfo.SettingsPreferenceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.sharpsan.virginmobileinfo.WorkerService { <init>(...); }
+
+# onClick res/layout/layout_help.xml #generated:24
+-keepclassmembers class * { *** contactDev(...); }
+
+# onClick res/layout/layout_help.xml #generated:16
+-keepclassmembers class * { *** showFaqs(...); }
+
+# onClick res/layout/layout_help.xml #generated:32
+-keepclassmembers class * { *** submitBug(...); }
+

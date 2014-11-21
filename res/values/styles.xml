@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="theme_color">#2E2E2E</color>
+    <color name="action_bar_text_color">#FFFFFF</color>
+    <color name="preferences_summary">#666666</color>
+    <color name="black">#000000</color>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- <item name="android:fontFamily">sans-serif-light</item> -->
+    </style>
+
+</resources>
